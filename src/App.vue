@@ -1,17 +1,22 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <funny-jokes></funny-jokes>
+    <joke-button></joke-button>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NormalJoke from './components/normal-joke.vue'
+import SnakeJoke from './components/snake-joke.vue'
+import LoudJoke from './components/loud-joke.vue'
+import JokeButton from './components/joke-button.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+ 
   }
 }
 </script>
